@@ -1,0 +1,57 @@
+.responsive {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    transition: transform .2s; /* Animation */
+    text-align: center;
+
+}
+
+/*html { background-color: white; } */
+
+.image {
+    width:auto; 
+    text-align:center; 
+    margin: 0 auto;
+
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1, p, h3 {
+    text-align: center;
+}
+.responsive:hover {
+    transform: scale(1.75); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+body{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color:   #e6eeff;
+}
+form {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+    
+a:visited {
+    text-decoration: none;
+    color: blue;
+}

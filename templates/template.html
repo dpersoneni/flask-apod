@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">    <title>NASAapod</title>
+</head>
+<body>
+    <h1>Astronomy Picture of the Day:</h1>
+    <p>Every day NASA gives the Astronomy Picture of the Day, below there is a short description of what you are seeing.</p>
+    <div class="image">
+        <img src="{{url}}" class="responsive">
+    </div>    
+    <h2>{{title}}</h2>
+    <p>{{description}}</p>
+    <br><br>
+    <p>You can also choose another day, the photos start from June 1995.</p>
+    <form action="/day" method="POST">
+        <label for="day">Choose a day:</label>
+        <input type="date" id="day" name="day">
+        <button type="submit">Find the photo</button> 
+    </form>
+</body>
+</html>
