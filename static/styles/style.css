@@ -14,7 +14,13 @@
     width:auto; 
     text-align:center; 
     margin: 0 auto;
+}
 
+.image1 {
+    width:100%; 
+    text-align:center; 
+    margin: 0 auto;
+    height: auto;
 }
 
 h2{
