@@ -34,7 +34,8 @@ body{
     margin-right: 8%;
     margin-top: 10px;
     margin-bottom: 50px;
-    background-color:   #e6eeff;
+/* background-color:   #e6eeff;*/
+    background-color: red;
 }
 form {
     text-align: center;
