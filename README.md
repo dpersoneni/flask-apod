@@ -14,7 +14,7 @@ The website is built with [Flask](https://flask.palletsprojects.com/en/1.1.x/), 
 
 [Heroku](https://www.heroku.com/home) host the site on their free pricing plan for students.
 
-You can find it [here](https://my-apod-app.herokuapp.com/)
+You can find it [here](https://my-apod-app.herokuapp.com/).
 
 
 
